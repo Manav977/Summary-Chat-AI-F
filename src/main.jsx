@@ -5,8 +5,7 @@ import App from './App.jsx';
 import { AppProvider } from './context/AppContext.jsx';
 import { AuthProvider } from './context/AuthContext.jsx';
 import { ChatProvider } from './context/ChatContext.jsx';
-import './styles/global.module.css';
-import './styles/Theme.css' 
+import './styles/global.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
